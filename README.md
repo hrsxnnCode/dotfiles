@@ -40,35 +40,58 @@ This repository contains my personal configuration files for a lightweight Arch 
 - Git
 - Basic build tools (for optional packages)
 
-> If you’re on a fresh install, make sure your system is updated before running the installer.
+**Recommended before install**
+
+```bash
+sudo pacman -Syu
+```
 
 ---
 
-## ⚡ Installation
+## ⚡ Installation (step by step)
+
+### 1) Clone the repository
 
 **SSH**
 
 ```bash
 git clone git@github.com:hrsxnnCode/dotfiles.git ~/dotfiles
-cd ~/dotfiles
-chmod +x install.sh
-./install.sh
 ```
 
 **HTTPS**
 
 ```bash
 git clone https://github.com/hrsxnnCode/dotfiles.git ~/dotfiles
+```
+
+### 2) Enter the folder
+
+```bash
 cd ~/dotfiles
+```
+
+### 3) Make the installer executable
+
+```bash
 chmod +x install.sh
+```
+
+### 4) Run the installer
+
+```bash
 ./install.sh
 ```
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage (after install)
 
-After installation, log out and start a Hyprland session. Most configs are ready out of the box. Customize freely inside each folder.
+1. Log out of your current session.
+2. Start a **Hyprland** session from your display manager (or run `Hyprland` from TTY).
+3. Open your terminal (Kitty) and verify the setup:
+   - `fastfetch` for system info
+   - `btop` for system monitor
+   - `cava` for audio visualizer
 
 ---
 
@@ -97,6 +120,8 @@ dotfiles/
 - **Fish**: aliases, functions, and plugins in `fish/`
 - **Kitty**: theme and font config in `kitty/`
 - **Starship**: prompt styling in `starship/`
+
+Tip: you can edit any config file and reload the app (or restart Hyprland) to see changes.
 
 ---
 
