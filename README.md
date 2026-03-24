@@ -100,6 +100,12 @@ dotfiles/
 
 ---
 
+## 🙏 Credits
+
+Inspired by the Caelestia dots.
+
+---
+
 ## 📌 Notes
 
 These are personal configs and may assume specific packages or fonts. Feel free to fork and adapt.
