@@ -19,6 +19,16 @@ This repository contains my personal configuration files for a lightweight Arch 
 
 ---
 
+## ✅ Supported distros
+
+- **Arch / Arch-based** (recommended): full support, best experience.
+- **Debian/Ubuntu-based**: supported, but some packages may be missing.
+- **Fedora**: supported, but some packages may be missing.
+
+> On non-Arch distros, Hyprland/uwsm/spicetify-cli/vesktop are not installed automatically. Install them manually if needed.
+
+---
+
 ## 🖥️ Setup
 
 | Component | Tool |
@@ -36,11 +46,11 @@ This repository contains my personal configuration files for a lightweight Arch 
 
 ## ✅ Prerequisites
 
-- Arch Linux (or an Arch-based distro)
+- Arch Linux (or an Arch-based distro) **recommended**
 - Git
 - Basic build tools (for optional packages)
 
-**Recommended before install**
+**Recommended before install (Arch only)**
 
 ```bash
 sudo pacman -Syu
